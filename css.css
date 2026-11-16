@@ -1,4 +1,10 @@
-.body{
-    box-sizing: end;
 
-}
+.background{
+        background-color:  #433E8A;
+    background-image: url("junker.png");
+    }
+.square{
+    height:100px;
+        width:100px;
+    background-color: green;
+    }
