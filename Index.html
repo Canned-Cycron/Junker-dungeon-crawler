@@ -1,20 +1,6 @@
 <!DOCTYPE html>
         <html lang="en">
-    <script type="module">
 
-// import kaboom.js
-import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
-
-// initialize kaboom context
-kaboom();
-
-// add a piece of text at position (120, 80)
-add([
-    text("hello"),
-    pos(120, 80),
-]);    '/'
-
-</script>
          <style>
  @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Indie+Flower&display=swap');
         </style>
@@ -22,17 +8,34 @@ add([
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Indie+Flower&family=Irish+Grover&display=swap');
         </style>
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport"
                 content="width=device-width,
                         initial-scale=1.0">
-    <title>Junker</title> 
-        <link rel="stylepager"
-                    href="css.css">
-        
-    <header>Junker</header>
-  
+
+    <title>Junker Dungeon Crawler</title> 
+        <link rel="stylesheet"
+                    href="css.css">  
+
 </head>
 
+    <body>
+
+            <main class="main-screen">
+                <div class="title">
+                    <h1> Junker</h1>
+                </div> 
+
+            
+
+            </main>
+
+            <script src="Worlds.js"></script>
+            <script type="module">import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";</script>
+    </body>
+
+
 </html>
+<footer> &copy; 2026 CannedStudios </footer>
 
